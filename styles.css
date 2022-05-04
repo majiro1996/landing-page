@@ -107,5 +107,33 @@ h2 {
     padding: 15px;
  }
 
+ .subtext {
+     text-align: center;
+ }
 
+ /*fourth part*/
+
+ #blockthree {
+    display:flex;
+    background-color:#E5E7EB;
+    flex-direction: column;
+    align-items:center;
+    padding:80px;
+ }
+
+.quote {
+    font-size:36px;
+    font-style:italic;
+}
+
+.signature {
+    font-weight:900;
+    font-size: 20px;
+    align-self: flex-end;
+}
+
+.quote,.signature {
+    margin-left: 100px;
+    margin-right: 100px;
+}
 
