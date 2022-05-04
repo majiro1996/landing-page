@@ -1,22 +1,61 @@
 * {
-font-family: ;
+    font-family: ;
+}
+
+body{
+    margin:0;
 }
 
 .header {
     color:white;
     background-color: #1F2937 ;
     display:flex;
-    justify-content: space-around;
     align-items:center;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+.logo {
+    font-weight:900;
+    margin-left: 150px;
+    font-size: 20px;
 }
 
 .topl {
     display:flex;
     list-style-type:none;
     gap: 16px;
+    margin-right: 150px;
 }
 
-a {
+.header .topl a {
     text-decoration:none;
     color:rgb(184, 184, 184);
 }
+/*second part, main title and image*/
+
+.imgone {
+    width:440px;
+    height: 200px;
+    margin-right:150px;
+    padding-left: 16px;
+}
+
+#blockone {
+    background-color: #1F2937;
+    color:rgb(184, 184, 184);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.textone {
+    margin-left: 150px;
+    width: 440px;
+}
+
+h1 {
+    color: white;
+}
+
+/*
