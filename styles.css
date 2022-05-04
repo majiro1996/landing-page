@@ -137,3 +137,45 @@ h2 {
     margin-right: 100px;
 }
 
+/*fifth part*/
+.cent {
+    display:flex;
+    justify-content:center;
+}
+#blockfour {
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    border-radius:10px;
+    background-color: #3882F6;
+    margin: 90px;
+    padding:16px;
+    color: white;
+}
+
+.call {
+    display:flex;
+    flex-direction:column;
+    padding: 16px;
+}
+
+.callone {
+    font-weight: 900;
+    font-size:24px;
+}
+
+.calltwo {
+    font-size:16px;
+}
+
+#buttontwo {
+    border-radius:10px;
+    font-size:16px;
+    color: white;
+    background-color:#3882F6 ;
+    font-weight:bold;
+    text-decoration:none;
+    padding:8px 16px;
+    border-color: white;
+    margin: 12px;
+}
